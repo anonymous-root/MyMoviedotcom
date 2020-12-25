@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Node file uploads</title>
+</head>
+<body>
+    <div>
+        <h1>File Uploads</h1>
+        <%= typeof msg != 'undefined' ? msg : '' %>
+        <form action="/kaibimovie" method="POST" enctype="multipart/form-data">
+            <input type="text" name="user_name"><br>
+            <input type="text" name="password"><br>
+            <input type="text" name="email"><br>
+            <input type="text" name="gender"><br>
+            <input type="text" name="state_id"><br>
+            <input type="text" name="city_id"><br>
+            <input type="text" name="group_id"><br>
+            <input type="text" name="is_active"><br>
+
+            <input type="file" name="photo1">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

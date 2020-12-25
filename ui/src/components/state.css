@@ -1,0 +1,24 @@
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+.Title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.Footer {
+    display: flex;
+    justify-content: space-between;
+}
+.Select {
+    max-width: 100px;
+}
+.Pagination {
+    margin: 0px !important;
+}
+.ant-layout-content{
+    margin: 1px 1px!important;
+    padding: 42px!important;
+    min-height: 280px!important;
+}
